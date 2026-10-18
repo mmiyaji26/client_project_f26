@@ -50,7 +50,6 @@ a:focus {
     top: 10px;
 }
 
-/* Logo and office name */
 .site-identity {
     display: grid;
     grid-template-columns: 100px auto;
@@ -76,7 +75,9 @@ a:focus {
     font-weight: normal;
 }
 
-/* Put the navigation in two columns. */
+/* Navigation styles. Written with AI assistance.
+   Starter prompt: "Make a two-column mobile menu with equal-sized links.
+   Highlight the current page and show focus when using the keyboard." */
 nav ul {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -115,7 +116,9 @@ nav a:hover, nav a:focus {
     color: #00274c;
 }
 
-/* Blue heading area on each page */
+/* Page heading below the navigation. Written with AI assistance.
+   Starter prompt: "Style the page title and introduction for mobile
+   with a blue background, a maize border, and readable spacing." */
 .page-intro {
     margin: 25px 0;
     padding: 25px 20px;
